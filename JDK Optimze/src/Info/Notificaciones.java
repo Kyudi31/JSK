@@ -12,11 +12,22 @@ public class Notificaciones {
         FechaEnvio = fechaEnvio;
     }
     
-public void Enviar(){}
+    public Date AsignarFechaEnvio(){
+        return FechaEnvio;
+    }
+    public Usuario AsignarDestinatarios(){
+        return Destinatario;
+    }
+    
+    public String DefinirMsg(){
+        return Mensaje;
+    }
+    
+    public void Enviar(){}
 
-public boolean Abrir(){ 
-    Leido = true; 
-    return Leido;
-} 
+    public boolean Abrir(){ 
+        Leido = true; 
+        return Leido;
+    } 
 
 }
