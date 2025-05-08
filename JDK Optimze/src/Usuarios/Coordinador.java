@@ -10,7 +10,6 @@ public class Coordinador extends Usuario {
         this.AreaEstablecida = AreaEstablecida;
     }
 
-
     public String EstablecerRutas(){
         return RutasEstablecidas;
     }

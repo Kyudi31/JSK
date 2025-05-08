@@ -5,7 +5,7 @@ public class Notificaciones {
     private String Mensaje;
     private Usuario Destinatario;
     private Date FechaEnvio;
-    private boolean Leido;
+    private boolean Leido = false;
     public Notificaciones(String mensaje, Usuario destinatario, Date fechaEnvio) {
         Mensaje = mensaje;
         Destinatario = destinatario;
